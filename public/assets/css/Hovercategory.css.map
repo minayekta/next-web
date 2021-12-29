@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAA;EACV,gBAAgB,EAAE,IAAI;CACzB",
+    "sources": [
+        "../../../src/components/Home/Hovercategory.scss"
+    ],
+    "names": [],
+    "file": "Hovercategory.css"
+}

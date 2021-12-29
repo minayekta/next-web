@@ -1,0 +1,79 @@
+.griditem {
+  background-color: white;
+  text-align: center;
+  border-bottom: 1px solid  #e1e1e1;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.griditem:hover {
+  z-index: 5;
+  -webkit-box-shadow: 1px 0 14px 5px #e1e1e1;
+          box-shadow: 1px 0 14px 5px #e1e1e1;
+}
+
+.griditem .griditem-margin {
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.griditem:hover .griditem-margin {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.griditem:hover .griditem-title-product {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  z-index: 2;
+}
+
+.griditem:hover .griditem-title-product {
+  background-color: #5A5A5A;
+  color: #fff;
+}
+
+.griditem-content {
+  border-right: 1px solid #e1e1e1;
+}
+
+.griditem-image {
+  margin: auto;
+}
+
+.griditem-title-product {
+  padding: 10px 0;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.griditem-price {
+  border-bottom: 1px solid #707070;
+  padding: 10px 0;
+}
+
+.griditem-btn {
+  width: 100%;
+}
+
+.griditem-btn:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.griditem-image-null {
+  height: 178px;
+}
+
+.owl-carousel .owl-item img {
+  display: block;
+  width: auto !important;
+  margin: auto !important;
+}
+/*# sourceMappingURL=Griditem.css.map */

@@ -1,0 +1,174 @@
+#backDiv video {
+  width: 100% !important;
+  height: auto !important;
+  min-width: 100%;
+}
+.textInVideo {
+  position: absolute;
+  top: 30%;
+  margin-left: 5%;
+  padding: 1%;
+  width: 30%;
+  max-height: 250px !important;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(12px);
+}
+.contactUsHeader {
+  color: red;
+  font-size: 30px;
+}
+.contactUsP {
+  color: black;
+  font-size: 12px;
+}
+.contactUsBtn {
+  font-size: 13px !important;
+  border-radius: 0;
+}
+footer li i {
+  color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 499px) {
+    #backDiv{
+        height: 285px;
+    }
+    .textInVideo {
+        top: 49%;
+  /* margin-left: 2%;   */
+  margin: auto;      
+        width: 94%;
+        max-height: 140px !important;
+        -webkit-backdrop-filter: blur(2px);
+        backdrop-filter: blur(2px);
+  overflow-y: scroll;
+
+      }
+      .contactUsHeader {
+        font-size: 12px;
+      }
+      .contactUsP {
+        margin-top: -5px;
+        font-size: 9px;
+      }
+      .contactUsBtn {
+          margin-top: -30px;
+        font-size: 7px !important;
+        background-color: red;
+        color: white;
+      }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media (min-width: 500px) and (max-width: 600px) {
+    .textInVideo {
+        top: 10%;
+        width: 45%;
+        max-height: 145px !important;
+  overflow-y: scroll;
+
+    
+      }
+      .contactUsHeader {
+        font-size: 13px;
+      }
+      .contactUsP {
+        font-size: 8px;
+      }
+      .contactUsBtn {
+        font-size: 7px !important;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .textInVideo {
+        top: 5%;
+        width: 35%;
+        max-height: 200px !important;
+  overflow-y: scroll;
+
+      }
+      .contactUsHeader {
+        font-size: 17px;
+      }
+      .contactUsP {
+        font-size: 10px;
+      }
+      .contactUsBtn {
+        font-size: 10px !important;
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .textInVideo {
+    top: 10%;
+    width: 35%;
+    max-height: 250px !important;
+  overflow-y: hidden;
+  }
+  .contactUsHeader {
+    font-size: 20px;
+  }
+  .contactUsP {
+    font-size: 12px;
+  }
+  .contactUsBtn {
+    font-size: 10px !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) {
+  .textInVideo {
+    top: 25%;
+    width: 35%;
+    max-height: 250px !important;
+  }
+  .contactUsHeader {
+    font-size: 20px;
+  }
+  .contactUsP {
+    font-size: 12px;
+  }
+  .contactUsBtn {
+    font-size: 10px !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1350px) {
+  .textInVideo {
+    top: 25%;
+    width: 35%;
+    max-height: 250px !important;
+  }
+  .contactUsHeader {
+    font-size: 25px;
+  }
+  .contactUsP {
+    font-size: 14px;
+  }
+  .contactUsBtn {
+    font-size: 13px !important;
+  }
+}
+
+@media only screen and (min-width: 1660px) {
+    .textInVideo{
+        top: 30%;
+        width: 30%;
+        max-height: 280px !important;
+    }
+    .contactUsHeader {
+        font-size: 30px;
+      }
+      .contactUsP {
+        font-size: 15px;
+      }
+      .contactUsBtn {
+        font-size: 13px !important;
+      }
+}

@@ -1,0 +1,18 @@
+{
+    "siteSetting": {
+        "domain":"ronixtools.com",
+        "apiurl": "https://ei.ronix.ir:4465/api",
+        "productImageUrl":"https://files.ronixtools.com/Images/Products",
+        "categoryImageUrl":"https://files.ronixtools.com/Images/Categories",
+        "commonImageUrl":"https://files.ronixtools.com/Images/Common",
+        "articleImageUrl":"https://files.ronixtools.com/Images/Articles/",
+        "TestImageUrl":"/asset2/Images",
+        "captchaSiteKey": "6LcJDH0UAAAAAEeXbh02X--eq3kPBAvflo-eS6-e",
+        "apiVersion":"v1"
+    },
+    "lang": {
+        "id": 2,
+        "currentlanguageCode":"en",
+        "languageCodeList":["en","fr","de","es"]
+    }
+}

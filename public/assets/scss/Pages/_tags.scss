@@ -1,0 +1,65 @@
+.tagsContainer {
+    justify-content: center;
+    font-size: 13px;
+    & .tagLabels {
+        border-radius: 5px;
+        background-color: #ebebeb;
+        font-size: 13px;
+        max-height: 600px;
+        min-height: 450px;
+        overflow-y: auto;
+        @media (max-width: 768px) {
+            min-height: 300px;
+            // height: 300px;
+        }
+    }
+    & .tagLabelsAcordion {
+        border-radius: 5px;
+        background-color: #ebebeb;
+        font-size: 13px;
+        max-height: 450px;
+        overflow-y: auto;
+    }
+}
+.TagsLineInAccordion {
+    white-space: break-spaces;
+    line-height: 35px;
+}
+.tagPage-description .wrapper {
+    background-color: #fff;
+    height: 100px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+/* 
+  .tagPage-description .wrapper.open{
+    height: auto;
+  } */
+.tagPage-description.open .button-page-discription i {
+    transform: translateX(-50%) rotate(180deg);
+}
+.tagPage-description .button-page-discription i {
+    // position: absolute;
+    left: 50%;
+    top: 15px;
+    transform: translateX(-50%);
+    transition: all 0.7s;
+}
+.tagPage-description span {
+    // font-family: 'bvazir-num' !important;
+}
+.tag-label {
+    border-radius: 40px;
+    background-color: #ebebeb;
+    font-size: 13px;
+    &:hover {
+        & span {
+            color: #ed1c24;
+        }
+    }
+}
+.tags-page {
+    .tagsContainer {
+        min-height: 300px;
+    }
+}

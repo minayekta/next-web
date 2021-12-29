@@ -1,0 +1,6 @@
+.compare-page .product-items img {
+  mix-blend-mode: darken;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+/*# sourceMappingURL=compare.css.map */

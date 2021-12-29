@@ -1,0 +1,8 @@
+.compare-page{
+    & .product-items{
+        & img{
+            mix-blend-mode: darken;
+            transform: translateY(-10px);
+        }
+    }
+}

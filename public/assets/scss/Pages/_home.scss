@@ -1,0 +1,21 @@
+.image_background_home {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 62vh;
+  background-position: 40%;
+  transition: all 1s !important;
+}
+.cart-news {
+  .title {
+    height: 80px;
+    overflow: hidden;
+  }
+}
+
+.mobile-navigation {
+  z-index: 1000;
+  & ~ .search-box {
+    z-index: 1000;
+  }
+}

@@ -1,0 +1,92 @@
+/* Sort */
+.sortform {
+  background-color: #fff;
+}
+
+.checkbox-container-Radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox-container-Radio .radio-checkmark:after {
+  top: 3px;
+  left: 15%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #8e8e8e;
+}
+
+.checkbox-container-Radio .radio-CustomRadio:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #b6b6b659;
+}
+
+.checkbox-container-Radio input:checked ~ .radio-CustomRadio {
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.checkbox-container-Radio input:checked ~ .radio-CustomRadio:after {
+  display: block;
+}
+
+.checkbox-container-Radio .radio-CustomRadio:after {
+  top: 3px;
+  left: 24%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ff0000;
+}
+
+.checkbox-container-Radio input:checked ~ .checkmark {
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.checkbox-container-Radio input:checked ~ .radio-checkmark {
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.checkbox-container-Radio input:checked ~ .radio-checkmark:after {
+  display: block;
+}
+
+.checkbox-container-Radio input:checked ~ .radio-CustomRadio:after {
+  display: block;
+}
+
+.checkbox-container-Radio input:checked ~ .radio-CustomRadio {
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.radio-CustomRadio {
+  left: 2px;
+  position: absolute;
+  top: 15%;
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  border: 1px solid #dfdfdf;
+  border-radius: 50%;
+}
+
+.radio-CustomRadio:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.sortdiv {
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.ChangeLayout {
+  position: absolute !important;
+  right: 0;
+}

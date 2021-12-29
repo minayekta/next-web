@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,SAAS,EAAG,uCAAuC;CAEtD",
+    "sources": [
+        "../../../src/components/product/feature.scss"
+    ],
+    "names": [],
+    "file": "feature.css"
+}

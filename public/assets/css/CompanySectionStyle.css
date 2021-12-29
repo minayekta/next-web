@@ -1,0 +1,38 @@
+/* -----------Company Section------------- */
+.content-company {
+  position: relative;
+  z-index: 2;
+}
+
+.back_1_style {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: screen;
+}
+
+@media (max-width: 768px) {
+  .back_1_style {
+    height: 600px;
+  }
+}
+
+.back_2_style {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  mix-blend-mode: screen;
+}
+
+.back_3_style {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  mix-blend-mode: screen;
+}
+
+@media (max-width: 768px) {
+  .back_3_style {
+    height: 600px;
+  }
+}

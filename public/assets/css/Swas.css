@@ -1,0 +1,187 @@
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: translate(50%, 50%) scale(1.5) rotate(0);
+            transform: translate(50%, 50%) scale(1.5) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(50%, 50%) scale(0.5) rotate(270deg);
+            transform: translate(50%, 50%) scale(0.5) rotate(270deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: translate(50%, 50%) scale(1.5) rotate(0);
+            transform: translate(50%, 50%) scale(1.5) rotate(0);
+  }
+  to {
+    -webkit-transform: translate(50%, 50%) scale(0.5) rotate(270deg);
+            transform: translate(50%, 50%) scale(0.5) rotate(270deg);
+  }
+}
+
+.swas-page .ScrollBar-Box {
+  height: 240px !important;
+}
+
+.swas-page.first-action {
+  height: calc(100vh - 96px);
+  overflow: hidden;
+}
+
+.swas-page .one-section {
+  height: calc(100vh - 96px);
+  overflow: hidden;
+}
+
+.swas-page .one-section .start-btn-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.swas-page .one-section .start-btn-wrapper .start-btn {
+  background-color: #CFCFCF;
+  border-radius: 3px;
+  border: 2px solid #fff;
+  position: relative;
+}
+
+.swas-page .one-section .start-btn-wrapper .start-btn span.on-state, .swas-page .one-section .start-btn-wrapper .start-btn span.off-state {
+  width: 48px;
+}
+
+.swas-page .one-section .start-btn-wrapper .start-btn span.on-state {
+  color: green;
+}
+
+.swas-page .one-section .start-btn-wrapper .start-btn span.cover-btn {
+  width: 48px;
+  position: absolute;
+  height: calc(100% - 4px);
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: #565656;
+  z-index: 1;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.swas-page .one-section .start-btn-wrapper .start-btn span.cover-btn span {
+  width: 2px;
+  height: 20px;
+  background-color: #fff;
+  margin: 4px 2px;
+  display: inline-block;
+}
+
+.swas-page .one-section .start-btn-wrapper .start-btn span.cover-btn.active {
+  right: 2px !important;
+}
+
+.swas-page .swas-img {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  -webkit-transform: translate(50%, 50%) scale(1.5);
+          transform: translate(50%, 50%) scale(1.5);
+  z-index: 1;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+}
+
+.swas-page .swas-img.start-animated {
+  right: 0;
+  bottom: -70%;
+  -webkit-animation: rotate 3s linear;
+          animation: rotate 3s linear;
+  -webkit-transform: translate(50%, 50%) scale(0.5) rotate(270deg);
+          transform: translate(50%, 50%) scale(0.5) rotate(270deg);
+}
+
+.swas-page .scroll-body .first-section {
+  overflow: hidden;
+}
+
+.swas-page .scroll-body .first-section h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.swas-page .scroll-body .first-section .first-section-contnet {
+  opacity: 0;
+}
+
+.swas-page .scroll-body .second-section .swas-page .scroll-body .second-section-content > div {
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.swas-page .scroll-body .main-content {
+  position: relative;
+  z-index: 1;
+}
+
+.swas-page .scroll-body .cover-side {
+  position: relative;
+  z-index: 2;
+}
+
+.swas-page .scroll-body .medium-title {
+  font-size: 47px;
+}
+
+.swas-page .scroll-body .three-section {
+  overflow: hidden;
+}
+
+.swas-page .scroll-body .three-section h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.swas-page .scroll-body .three-section .three-section-contnet {
+  opacity: 0;
+}
+
+.swas-page .scroll-body .five-section {
+  overflow: hidden;
+}
+
+.swas-page .scroll-body .five-section h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.swas-page .scroll-body .five-section .five-section-contnet {
+  opacity: 0;
+}
+
+.swas-page .scroll-body .five-section .long-content-box {
+  z-index: -1;
+}
+
+@media (max-width: 1367px) {
+  .swas-page .font-16 {
+    font-size: 14px !important;
+  }
+  .swas-page h1 {
+    font-size: 50px !important;
+  }
+  .swas-page .font-36 {
+    font-size: 26px !important;
+  }
+  .swas-page .font-16.mt-4 {
+    margin-top: 10px !important;
+  }
+  .swas-page .first-section-title, .swas-page .three-section-title, .swas-page .five-section-title {
+    padding-bottom: 15px !important;
+  }
+}

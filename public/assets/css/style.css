@@ -1,0 +1,179 @@
+/* @import "./bootstrap-rtl-n.min.css"; */
+
+/*----------------------container-style------------------------*/
+
+@media (min-width: 1366px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1310px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1396px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1430px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1630px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1670px;
+    }
+}
+
+/*----------------------general-style------------------------*/
+
+button,
+button:focus {
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.all-transition {
+    transition: all 0.3s;
+}
+
+.bk-white {
+    background-color: #fff;
+}
+
+.font-9 {
+    font-size: 9px;
+}
+.font-11 {
+    font-size: 11px;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.font-19 {
+    font-size: 19px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.c-grayD {
+    color: #303030;
+}
+
+.c-red {
+    color: #ed1c24;
+}
+
+.c-black {
+    color: #303030;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+/* -------Subtitle Ronixcompany---------- */
+.subtitleronixcompany-body {
+    height: 100vh;
+    background-color: black;
+}
+
+.subtitleronixcompany-image {
+    height: 400px;
+}
+
+.subtitleronixcompany-text-ronixcompany {
+    height: fit-content;
+}
+
+.subtitleronixcompany-box-test {
+    width: 900px;
+    background-color: #616161;
+}
+
+.subtitleronixcompany-description {
+    width: 900px;
+}
+
+/* -----------Company Section------------- */
+
+.companysection-body {
+    background-color: #ed1c24;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.companysection-title,
+.companysection-Chine-title,
+.companysection-Iran-title {
+    font-size: 160px;
+    color: white;
+    position: absolute;
+    bottom: -120px;
+}
+
+.companysection-chine {
+    transform: translateX(215%);
+    position: absolute;
+}
+
+.companysection-Iran {
+    transform: translateX(315%);
+    position: absolute;
+}
+
+body {
+    font-family: "Helvetica LT CondensedBlack";
+    overflow-x: hidden;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

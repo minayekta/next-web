@@ -1,0 +1,25 @@
+/* -------Subtitle Ronixcompany---------- */
+.subtitleronixcompany-body {
+  height: 100vh;
+  background-color: black;
+}
+
+.subtitleronixcompany-image {
+  height: 400px;
+}
+
+.subtitleronixcompany-text-ronixcompany {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.subtitleronixcompany-box-test {
+  width: 900px;
+  background-color: #616161;
+}
+
+.subtitleronixcompany-description {
+  width: 900px;
+}
+/*# sourceMappingURL=SubtitleRonixCompanyStyle.css.map */

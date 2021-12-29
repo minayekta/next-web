@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACE,AAAA,mBAAmB,CAAA;EACjB,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,CAAC;CACX",
+    "sources": [
+        "BreadCrumb.scss"
+    ],
+    "names": [],
+    "file": "BreadCrumb.css"
+}

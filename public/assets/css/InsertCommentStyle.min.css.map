@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,AAAA,CAEf,gBAAgB,CAAE,KAAK,CACvB,OAAO,CAAE,SAAS,CAErB,AACD,AAAA,qBAAqB,AAAA,CACjB,WAAW,CAAE,IAAI,CACpB,AACD,AAAA,oBAAoB,AAAA,CAChB,aAAa,CAAE,iBAAiB,CAChC,OAAO,CAAE,IAAI,CACb,KAAK,CAAE,GAAG,CACV,KAAK,CAAE,KAAK,CACZ,WAAW,CAAE,IAAI,CACpB,AACD,AAAA,6BAA6B,AAAA,CAEzB,gBAAgB,CAAE,kBAAkB,CACpC,OAAO,CAAE,eAAe,CACxB,KAAK,CAAE,gBAAgB,CACvB,aAAa,CAAE,cAAc,CAChC,AACD,AAAA,qBAAqB,AAAA,CAEjB,aAAa,CAAE,cAAc,CAChC",
+    "sources": [
+        "../../../src/components/product/InsertCommentStyle.scss"
+    ],
+    "names": [],
+    "file": "InsertCommentStyle.min.css"
+}

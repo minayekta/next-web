@@ -1,0 +1,21 @@
+.news{
+& .back-slider-img{
+//  background-image: url('/assets/img/company.svg');
+ background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #fff, $alpha: 0.7);
+    }
+}
+& .news-item{
+    max-width: 300px;
+}
+}

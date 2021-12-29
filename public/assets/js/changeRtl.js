@@ -1,0 +1,4 @@
+
+  $('html').attr("dir", "rtl");
+
+    

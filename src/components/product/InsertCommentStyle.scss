@@ -1,0 +1,52 @@
+.insert-comment-box{
+
+    background-color: white;
+    padding: 24px 39px;
+   
+}
+.insert-comment-label{
+    margin-left: 14px;
+}
+.insert-comment-dash{
+    border-bottom: 1px solid #cecece;
+    display: flex;
+    width: 89%;
+    float: right;
+    padding-top: 10px;
+}
+.insert-comment-submit-button{
+
+    background-color: #ED1C24 !important;
+    padding: 14px !important;
+    color: white !important;
+    border-radius: 0px !important;
+}
+
+.border-error{
+    border: 1px solid #ED1C24!important;
+}
+.form-control:focus{
+    border-color: #ced4da!important; 
+    outline: 0;
+    -webkit-box-shadow:unset!important; 
+     box-shadow: unset!important;
+}
+.input-comment{
+    resize: none;
+}
+.insert-comment-input{
+
+    border-radius: 0px !important;
+}
+.success-message {
+    background-color: #4b8a3b !important;
+    padding: 10px 27px!important;
+    &::after{
+        content: 'Success';
+        padding-left: 10px;
+    }
+    &::before{
+        content: '\f00c';
+        font: normal normal normal 14px/1 FontAwesome;
+    }
+}

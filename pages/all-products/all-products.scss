@@ -1,0 +1,83 @@
+.container {
+    max-width: 1640px;
+    margin: auto;
+}
+.all-products-pagination {
+    background: white;
+    padding: 10px;
+    height: 48px;
+}
+.active-page {
+    margin: 10px;
+    background-color: #ed1c24;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 26px;
+    height: 26px;
+    position: relative;
+}
+.active-page .pagination-content {
+    display: block;
+    color: #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.compare-bar {
+    position: sticky !important;
+    bottom: 0;
+    left: 0;
+    background-color: #000000a1;
+    z-index: 1000;
+    & .item-box {
+        & > div {
+            width: 20%;
+            float: left;
+            padding-left: 5px;
+            padding-right: 5px;
+            & .delete-item {
+                & svg {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                cursor: pointer;
+                &:hover {
+                    background-color: #ee262e;
+                    & svg path {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.page-description .wrapper {
+    background-color: #fff;
+    overflow: hidden;
+    transition: all 0.5s;
+    &.show {
+        height: 200px;
+    }
+}
+/* 
+  .page-description .wrapper.open{
+    height: auto;
+  } */
+.page-description.open .button-page-discription svg {
+    transform: translateX(-50%) rotate(180deg);
+}
+.page-description .button-page-discription svg {
+    position: absolute;
+    left: 50%;
+    top: 15px;
+    transform: translateX(-50%);
+    transition: all 0.7s;
+}
+.page-description span {
+    // font-family: 'bvazir-num' !important;
+}

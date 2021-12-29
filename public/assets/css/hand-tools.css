@@ -1,0 +1,597 @@
+#v0 {
+  top: -60px;
+}
+
+.handToolsContainer {
+  background-color: white;
+}
+
+.firstSection {
+  padding-top: 5%;
+  /* margin-top: 25px; */
+  font-size: 100px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Firefox < 16 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
+  animation: fadein 2s;
+}
+
+.globalHeader {
+  font-size: 100px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+}
+
+.globalHeader.leftText {
+  font-size: 100px;
+  color: #000000;
+  font-weight: bold;
+  text-align: left;
+}
+
+.globalHeader.withText {
+  font-size: 47px;
+  color: #000000;
+  font-weight: bold;
+  text-align: left;
+}
+
+.globalText {
+  font-size: 13px;
+  color: #000000;
+  font-weight: normal;
+}
+
+.myContainer {
+  margin: auto;
+  height: 100vh;
+  width: 60%;
+}
+
+.emptyBox {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  height: 450px;
+  background-color: rgba(185, 185, 185, 0.4);
+}
+
+.secondSection {
+  height: 95vh;
+  background-color: #f8f8f8;
+}
+
+.pliers {
+  margin: auto;
+  padding: 15%;
+  width: 70%;
+  /* width: 100%; */
+}
+
+.secondSectionPart {
+  margin: auto;
+  padding-left: 10%;
+  text-align: left;
+  width: 100%;
+  height: 60%;
+  /* display: flex; */
+  display: inline-flex;
+  background-color: #f8f8f8;
+}
+
+.secondSectionPart img {
+  margin-top: 5%;
+  height: 80%;
+  width: 30%;
+}
+
+/* 
+.Locking {
+  margin: auto;
+  padding-left: 10%;
+  text-align: left;
+  width: 100%;
+  height: 60%;
+  /* display: flex; 
+  display: inline-flex;
+  background-color: #f8f8f8;
+}
+.Locking img {
+  margin-top: 5%;
+  height: 80%;
+  width: 30%;
+}
+.Diagonal {
+  margin: auto;
+  padding-left: 10%;
+  text-align: left;
+  width: 100%;
+  height: 60%;
+  /* display: flex; 
+  display: inline-flex;
+  background-color: #f8f8f8;
+}
+.Diagonal img {
+  margin-top: 5%;
+  height: 80%;
+  width: 30%;
+} 
+
+*/
+.textWithHead {
+  margin-top: 10%;
+  margin-left: 1%;
+  width: 29%;
+}
+
+.redLineRight {
+  position: absolute;
+  margin-top: 7%;
+  right: 0;
+  width: 20%;
+  height: 70%;
+  border-left: 7px solid #ed1c24;
+  background-color: #f8f8f8;
+  z-index: +1;
+}
+
+.redLineLeft {
+  position: absolute;
+  /* margin-top: 6%; */
+  left: 0;
+  width: 15%;
+  height: 100%;
+  /* border-right: 7px solid #ed1c24; */
+  background-color: #f8f8f8;
+  z-index: +3;
+}
+
+.redLineRight.white {
+  background-color: white;
+}
+
+.redLineLeft.white {
+  background-color: white;
+}
+
+.secondSectionVideo {
+  position: absolute;
+  margin: auto;
+  width: 60%;
+  height: 95%;
+  z-index: +4;
+}
+
+.thirdSection {
+  margin: auto;
+  width: 80%;
+  height: 100vh;
+  text-align: center;
+}
+
+.thirdSectionVideo {
+  margin-top: 9%;
+}
+
+.fourthSection {
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.fourthSecContainer {
+  margin: auto;
+  padding: 2%;
+  width: 70%;
+}
+
+.fifthSection {
+  height: 100vh;
+  margin-bottom: 50px;
+}
+
+.fifthSecContainer {
+  padding: 5%;
+}
+
+.card {
+  border: none !important;
+}
+
+.cardBox {
+  width: 100%;
+  height: 300px;
+  background-color: rgba(185, 185, 185, 0.4);
+}
+
+.card-title {
+  font-size: 47px;
+  font-weight: bold;
+  color: black;
+}
+
+.sixthSection {
+  height: 95vh;
+  background-color: #f8f8f8;
+}
+
+.sixthSectionPart {
+  margin: auto;
+  padding-left: 10%;
+  text-align: left;
+  width: 100%;
+  height: 60%;
+  /* display: flex; */
+  display: inline-flex;
+  background-color: #f8f8f8;
+}
+
+.sixthSectionPart img {
+  margin-top: 5%;
+  height: 80%;
+  width: 30%;
+}
+
+.Adjustable {
+  margin-top: 6%;
+  margin-left: 10%;
+}
+
+.seventhSection {
+  height: 95vh;
+}
+
+.seventhSectionPart {
+  margin: auto;
+  /* padding: 5%; */
+  /* width: 70%; */
+  /* margin: auto; */
+  /* padding-left: 10%; */
+  text-align: left;
+  width: 100%;
+  height: 100vh;
+  /* display: flex; */
+  display: inline-flex;
+}
+
+/* ***************************************************************************************** */
+/* The Second Class Under This Comment Should be changed to img */
+.seventhSectionPart .seventhSectionBox {
+  margin-top: 5%;
+}
+
+.seventhSectionBox {
+  width: 35%;
+  height: 500px;
+  background-color: #b9b9b9;
+}
+
+.CUTTING {
+  margin: auto;
+}
+
+.eighthSection {
+  height: 95vh;
+  background-color: #f8f8f8;
+}
+
+.eighthSectionPart {
+  width: 100%;
+  margin: auto;
+  margin-left: 25%;
+  margin-top: -5%;
+  /* padding-left: 10%; */
+  text-align: left;
+  /* height: 60%; */
+  /* display: flex; */
+  display: inline-flex;
+  /* background-color: red; */
+}
+
+.eighthSection img {
+  margin-top: 8%;
+  height: 80%;
+  width: 30%;
+}
+
+.eighthSectionEmptyBox {
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* margin: auto; */
+  width: 50%;
+  height: 450px;
+  background-color: #e2e2e2;
+}
+
+.globalText.Screw {
+  width: 50%;
+  margin-top: 25px;
+}
+
+.ninthSection {
+  height: 95vh;
+  /* background-color: #f8f8f8; */
+}
+
+.ninthSectionPart {
+  width: 100%;
+  margin: auto;
+  margin-left: 25%;
+  margin-top: -5%;
+  /* padding-left: 10%; */
+  text-align: left;
+  /* height: 60%; */
+  /* display: flex; */
+  display: inline-flex;
+  /* background-color: red; */
+}
+
+.ninthSection img {
+  margin-top: 8%;
+  height: 80%;
+  width: 30%;
+}
+
+.ninthSectionEmptyBox {
+  /* display: flex;
+    flex-wrap: wrap; */
+  /* margin: auto; */
+  width: 40%;
+  height: 450px;
+  background-color: #e2e2e2;
+}
+
+.textWithHead.Measuring {
+  width: 100%;
+}
+
+.globalHeader.Measuring {
+  text-align: left;
+  font-size: 70px;
+  width: 570px;
+}
+
+.globalText.Measuring {
+  width: 85%;
+  margin-top: 1%;
+}
+
+.eighthSectionPart.What img {
+  margin-top: 10%;
+}
+
+.textWithHead.Screw {
+  margin-top: 10%;
+  margin-left: 1%;
+  width: 80%;
+}
+
+.longText {
+  width: 40%;
+}
+
+.tenthSection {
+  height: 95vh;
+  background-color: #f8f8f8;
+}
+
+.tenthSectionPart {
+  width: 100%;
+  margin: auto;
+  margin-left: 25%;
+  margin-top: -5%;
+  /* padding-left: 10%; */
+  text-align: left;
+  /* height: 60%; */
+  /* display: flex; */
+  display: inline-flex;
+  /* background-color: red; */
+}
+
+.tenthSection img {
+  margin-top: 8%;
+  height: 80%;
+  width: 30%;
+}
+
+.tenthSectionEmptyBox {
+  /* display: flex;
+    flex-wrap: wrap; */
+  /* margin: auto; */
+  width: 40%;
+  height: 450px;
+  background-color: #e2e2e2;
+}
+
+.globalHeader.lone {
+  font-size: 85px;
+  width: 1000px;
+}
+
+.eleventhSection {
+  height: 95vh;
+  /* background-color: #f8f8f8; */
+}
+
+.eleventhSectionPart.CLAMPS {
+  margin-top: 8%;
+  /* height: 95vh; */
+  /* background-color: #f8f8f8; */
+}
+
+.eleventhSectionPart {
+  width: 100%;
+  margin: auto;
+  margin-left: 25%;
+  margin-top: -5%;
+  /* padding-left: 10%; */
+  text-align: left;
+  /* height: 60%; */
+  /* display: flex; */
+  display: inline-flex;
+  /* background-color: red; */
+}
+
+.eleventhSection img {
+  margin-top: 8%;
+  height: 80%;
+  width: 30%;
+}
+
+.twelfthSection {
+  height: 95vh;
+  background-color: #f8f8f8;
+}
+
+.twelfthSectionPart {
+  width: 100%;
+  margin: auto;
+  margin-left: 25%;
+  margin-top: -5%;
+  /* padding-left: 10%; */
+  text-align: left;
+  /* height: 60%; */
+  /* display: flex; */
+  display: inline-flex;
+  /* background-color: red; */
+}
+
+.twelfthSection img {
+  margin-top: 8%;
+  height: 80%;
+  width: 30%;
+}
+
+.textWithHead.hammers {
+  margin-top: 8%;
+}
+
+@media only screen and (min-width: 1366px) and (max-device-width: 1600px) {
+  .firstSection {
+    font-size: 50px;
+  }
+  .globalHeader {
+    font-size: 50px;
+  }
+  .globalHeader.leftText {
+    font-size: 50px;
+  }
+  .globalHeader.withText {
+    font-size: 30px;
+  }
+  .card-title {
+    font-size: 35px;
+  }
+  .globalHeader.lone {
+    font-size: 50px;
+  }
+  .globalText {
+    font-size: 10px;
+  }
+  .globalText.Measuring {
+    width: 90%;
+    font-size: 10px;
+  }
+  .emptyBox {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 70%;
+    height: 300px;
+    background-color: rgba(185, 185, 185, 0.4);
+    margin-bottom: 1%;
+  }
+  .thirdSectionVideo {
+    margin-top: 8%;
+    width: 75%;
+  }
+  .fourthSecContainer {
+    padding-top: 8%;
+  }
+  .seventhSectionBox {
+    width: 35%;
+    height: 350px;
+    background-color: #b9b9b9;
+  }
+  .eighthSectionEmptyBox {
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* margin: auto; */
+    width: 40%;
+    height: 300px;
+    background-color: #e2e2e2;
+  }
+  .ninthSectionPart {
+    margin-top: -5%;
+  }
+  .ninthSectionEmptyBox {
+    height: 300px;
+  }
+  .globalHeader.Measuring {
+    font-size: 40px;
+    width: 400px;
+  }
+  .eighthSectionPart.What img {
+    margin-top: 11%;
+  }
+  .tenthSectionPart {
+    margin-top: -2%;
+  }
+  .tenthSectionEmptyBox {
+    /* display: flex;
+      flex-wrap: wrap; */
+    /* margin: auto; */
+    width: 40%;
+    height: 300px;
+    margin-bottom: 5px;
+  }
+  .textWithHead {
+    margin-top: 8%;
+    margin-left: 1%;
+    width: 29%;
+  }
+  .textWithHead.Screw {
+    width: 100%;
+    margin-top: 10%;
+  }
+  .card {
+    border: none !important;
+    font-size: 13px;
+    margin-top: -5%;
+  }
+  .card p {
+    width: 85%;
+  }
+  .globalText.Screw {
+    width: 40%;
+    margin-top: 25px;
+  }
+  .cardBox {
+    width: 80%;
+    height: 200px;
+    background-color: rgba(185, 185, 185, 0.4);
+  }
+}
+
+/* ************************************************************************* */
+/* ***************                Mobile View               **************** */
+.nav-link {
+  background-color: none !important;
+}
+
+.p-4 {
+  padding: 0 !important;
+}
+
+/* ************************************************************************* */
+/* ************************************************************************* */
+/* ****************                Test Code               ***************** */
+.globalHeader.lone {
+  /* margin-left: -550px; */
+}
+/*# sourceMappingURL=hand-tools.css.map */

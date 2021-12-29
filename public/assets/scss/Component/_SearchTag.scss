@@ -1,0 +1,28 @@
+.searchTagContainer {
+    & .searchDiv {
+        border-bottom: 1px solid #d2d2d2;
+        & .searchInput {
+            width: 100%;
+        }
+    }
+    & .tagsSearchIcon {
+        @media (max-width: 768px) {
+        }
+        @media (max-width: 992px) {
+        }
+        @media (max-width: 1190px) {
+        }
+        @media (min-width: 1195px) {
+            font-size: 20px;
+        }
+    }
+}
+.searchTagContainerInPopUp {
+    & .searchDiv {
+        border: 1px solid #d2d2d2;
+        border-radius: 5px;
+        & .searchInput {
+            width: 100%;
+        }
+    }
+}

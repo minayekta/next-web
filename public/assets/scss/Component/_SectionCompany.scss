@@ -1,0 +1,24 @@
+.back-image{
+    background-image: url('../img/BackgroundCompany.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.letter-Space{
+}
+.company-section {
+    & .title{
+        font-size: 47px;
+        letter-spacing: 25px;
+        &.rtl{
+            letter-spacing: unset!important;
+        }
+        @media(max-width:1420px){
+            font-size: 32px;
+            letter-spacing: 24px;
+        }
+        @media (max-width:767px){
+            font-size: 20px;
+            letter-spacing: 2px;
+        }
+    }
+}

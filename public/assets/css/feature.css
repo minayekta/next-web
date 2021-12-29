@@ -1,0 +1,4 @@
+.feature_img {
+  -webkit-clip-path: polygon(105% -114%, -100% 99%, 82% 88%);
+          clip-path: polygon(105% -114%, -100% 99%, 82% 88%);
+}

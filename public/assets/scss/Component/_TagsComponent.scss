@@ -1,0 +1,12 @@
+.tagsComponent {
+    text-align: center;
+    display: inline-block;
+    & .tagLinkContainer {
+        background-color: white;
+        border-radius: 40px;
+        color: rgb(109, 109, 109);
+        &:hover {
+            color: #ed1c24;
+        }
+    }
+}

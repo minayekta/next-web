@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEQ,aAFK,CACP,cAAc,CACV,GAAG,CAAA;EACD,cAAc,EAAE,MAAM;EACtB,SAAS,EAAE,iBAAiB;CAC/B",
+    "sources": [
+        "compare.scss"
+    ],
+    "names": [],
+    "file": "compare.css"
+}

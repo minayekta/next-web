@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,YAAY,CAAA;EACR,gBAAgB,EAAE,OAAO;CAE5B",
+    "sources": [
+        "ErrorPages.scss"
+    ],
+    "names": [],
+    "file": "ErrorPages.css"
+}

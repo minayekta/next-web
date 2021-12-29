@@ -1,0 +1,296 @@
+@keyframes opacity_animation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.3;
+  }
+}
+.griditem {
+  background-color: white;
+  border-bottom: 1px solid #e1e1e1;
+  transition: all 0.3s ease;
+  overflow: hidden;
+
+  & .small-img-loading {
+    background-color: #f8f8f8;
+    animation: opacity_animation 1s alternate infinite linear;
+  }
+  & .badge-cart {
+    .compare-badge {
+      & path {
+        fill: #e2e2e2;
+        transition: all 0.3s;
+      }
+      &:hover {
+        & path {
+          fill: #8b8b8b;
+        }
+      }
+    }
+  }
+}
+.griditem:hover {
+  box-shadow: 1px 0 10px 1px #e1e1e1;
+}
+.griditem .griditem-margin {
+  transition: all 0.3s ease;
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  transform: translateX(0%);
+  top: 0;
+  &.show-product-img {
+    z-index: 1;
+  }
+}
+.griditem:hover .griditem-margin {
+  // transform: translateX(-50%) scale(1.1);
+  transform: scale(1.1);
+}
+.griditem .griditem-title-product {
+  transition: all 0.3s;
+  position: relative;
+  z-index: 2;
+  height: 58px;
+}
+.griditem:hover .griditem-title-product {
+  background-color: #5a5a5a;
+  color: #fff;
+}
+.griditem-content {
+  border-right: 1px solid #e1e1e1;
+}
+.griditem-image {
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+.griditem-title-product {
+  padding: 10px 0;
+  font-size: 13px;
+  font-weight: 700;
+}
+.griditem-price {
+  border-bottom: 1px solid #707070;
+  padding: 10px 0;
+}
+.griditem-btn {
+  width: 100%;
+}
+.griditem-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.griditem-image-null {
+  height: 178px;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: auto !important;
+}
+
+.faq-input-search-question {
+  border: none;
+  border-bottom: 1px solid #707070;
+  font-size: 13px;
+}
+.faq-input-search-question:focus {
+  border: none;
+  border-bottom: 1px solid #707070;
+  font-size: 13px;
+}
+
+.faq-Search-Icon {
+  left: 24%;
+  top: 38%;
+}
+.faq-title-filtering {
+  font-size: 18px;
+  padding: 5px;
+}
+.faq-Input-Filter-question {
+  font-size: 14px;
+  border: 1px solid #c2c2c2;
+  background-color: #ffffff;
+  color: #000000;
+  width: 96px;
+}
+.faq-Input-Filter-question:focus {
+  border: 1px solid #c2c2c2;
+  width: 96px;
+  background-color: #2986f1;
+  color: white;
+}
+.Bg-Blue {
+  border: 1px solid #c2c2c2;
+  border: 1px solid #c2c2c2;
+  width: 96px !important;
+}
+.faq-plus-icon {
+  color: #000000;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  font-size: 50px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  left: 10px;
+  top: 20px;
+}
+.faq-plus-icon:focus {
+  border: none;
+  outline: none;
+}
+.faq-plus-icon .plus {
+  background: #000;
+  width: 2px;
+  height: 15px;
+  border-radius: 50px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 0;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.2s all ease-out;
+}
+.faq-plus-icon .minus {
+  background: #000;
+  width: 2px;
+  height: 15px;
+  border-radius: 50px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: rotate(90deg);
+  bottom: 0;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.2s all ease-out;
+}
+.faq-plus-icon .plus {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+.faq-plus-icon.active .plus {
+  opacity: 0;
+  transform: rotate(90deg);
+}
+
+.faq-box-question-item {
+  border-bottom: 1px solid #e4e4e4;
+  top: 0 !important;
+}
+.faq-box-question-item:nth-child(1) {
+  position: absolute;
+  top: 28px;
+}
+.faq-question-content p {
+  background: #f5f5f5;
+  padding: 5px;
+  font-size: 15px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.faq-question-content img {
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+.faq-arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 15px solid whitesmoke;
+  position: absolute;
+  top: 49px;
+  right: 15px;
+}
+.faq-ScrollBars {
+  height: 64vh !important;
+}
+
+#IranMap .map .islands .Group_779 path:hover,
+#IranMap .map .islands path:hover,
+#IranMap .map path.hover,
+#IranMap .map .islands path.hover {
+  fill: red !important;
+  cursor: pointer;
+  stroke-width: 2px;
+}
+.Img-Box-aftersales {
+  position: sticky;
+  top: 15%;
+}
+
+@media (max-width: 445px) {
+  .aftersales-Buttontoggle {
+    padding: 10px;
+    border: 1px solid #ececec;
+    background-color: white;
+    font-size: 12px;
+  }
+}
+.aftersales-Buttontoggle {
+  padding: 10px;
+  border: 1px solid #ececec;
+  background-color: white;
+}
+.aftersales-Buttontoggle:focus {
+  border: 1px solid #ececec !important;
+  outline: none;
+}
+.aftersales-title-HrLeft {
+  position: absolute;
+  width: 27%;
+  left: 0;
+  top: 50%;
+  margin: auto;
+}
+.aftersales-title-HrRight {
+  position: absolute;
+  width: 30%;
+  right: 0;
+  top: 50%;
+  margin: auto;
+}
+
+.Aftersales-Content-line {
+  line-height: 2;
+}
+
+.Border-add {
+  border-right: 1px solid rgb(167, 167, 167);
+  text-align: right;
+}
+.Search-Panel {
+  border: 1px solid #ababab;
+}
+.Search-Panel:focus {
+  /* outline: none!important; */
+  border: 1px solid #ababab;
+}
+button {
+  outline: none;
+}
+
+.ScrollBars-CardCustomer {
+  height: 47vh !important;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.Scroll-Content {
+  line-height: 1.8em;
+}
+.rtl .cky-button-wrapper .cky-btn {
+  margin-right: 0 !important;
+  margin-left: 15px;
+}

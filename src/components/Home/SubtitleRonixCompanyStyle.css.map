@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,4CAA4C;AAC5C,AAAA,0BAA0B,CAAA;EACtB,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,KAAK;CAExB;;AACD,AAAA,2BAA2B,CAAA;EACzB,MAAM,EAAE,KAAK;CACd;;AACD,AAAA,uCAAuC,CAAA;EACvC,MAAM,EAAE,WAAW;CAClB;;AACD,AAAA,8BAA8B,CAAA;EAC9B,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,OAAO;CACxB;;AACD,AAAA,iCAAiC,CAAA;EACjC,KAAK,EAAE,KAAK;CACX",
+    "sources": [
+        "SubtitleRonixCompanyStyle.scss"
+    ],
+    "names": [],
+    "file": "SubtitleRonixCompanyStyle.css"
+}

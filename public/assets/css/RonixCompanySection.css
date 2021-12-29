@@ -1,0 +1,164 @@
+.ronixcompanysection {
+  height: 100vh;
+  background-color: #000;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.ronixcompanysection .ronixcompanysection-box-title .ronixcompanysection-text {
+  color: #DC0000;
+  letter-spacing: 5px;
+  position: absolute;
+  left: 0%;
+  top: 46%;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+@media (max-width: 1366px) {
+  .ronixcompanysection .ronixcompanysection-box-title .ronixcompanysection-text {
+    top: 41%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .ronixcompanysection .ronixcompanysection-box-title .ronixcompanysection-text {
+    top: 46%;
+    font-size: 40px;
+  }
+}
+
+.ronixcompanysection .ronixcompanysection-box-title .ronixcompanysection-text-company {
+  font-size: 40px;
+  letter-spacing: 15px;
+  position: absolute;
+  left: 0%;
+  top: 55%;
+  font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+  .ronixcompanysection .ronixcompanysection-box-title .ronixcompanysection-text-company {
+    font-size: 25px;
+  }
+}
+
+.ronixcompanysection .ronixcompanysection-backtextone {
+  font-size: 546px;
+  position: absolute;
+  top: -9%;
+  left: -29%;
+}
+
+@media (max-width: 1366px) {
+  .ronixcompanysection .ronixcompanysection-backtextone {
+    font-size: 370px;
+  }
+}
+
+.ronixcompanysection .ronixcompanysection-backtexttwo {
+  font-size: 546px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  bottom: -38%;
+  left: -1%;
+}
+
+@media (max-width: 1366px) {
+  .ronixcompanysection .ronixcompanysection-backtexttwo {
+    font-size: 370px;
+  }
+}
+
+.ronixcompanysection .ronixcompanysection-header-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 130px;
+}
+
+@media (max-width: 1366px) {
+  .ronixcompanysection .ronixcompanysection-header-title {
+    font-size: 77px;
+  }
+}
+
+.ronixcompanysection .ronixcompanysection-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.ronixcompanysection .ronixcompanysection-img .custom-btn {
+  color: white;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 10px 25px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transition: all .3s ease;
+}
+
+@media (max-width: 1366px) {
+  .ronixcompanysection .ronixcompanysection-img .custom-btn {
+    font-size: 12px;
+  }
+}
+
+.ronixcompanysection .ronixcompanysection-paragraph {
+  position: absolute;
+  left: 50%;
+  top: 96%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1366px) {
+  .ronixcompanysection .ronixcompanysection-paragraph {
+    top: 92%;
+  }
+}
+
+.ronixcompanysection-two {
+  height: 5vh;
+  position: relative;
+  overflow: hidden;
+  background-color: #DC0000;
+}
+
+.ronixcompanysection-mobile {
+  background-color: #000;
+  height: calc( 50vh - 102px);
+}
+
+.ronixcompanysection-mobile .ronixcompanysection-mobile-box-title .ronixcompanysection-mobile-text {
+  color: #DC0000;
+}
+
+.ronixcompanysection-mobile-two {
+  background-color: #DC0000;
+  height: auto;
+}
+
+.ronixcompanysection-mobile-two .ronixcompanysection-mobile-header-title {
+  font-size: 24px;
+}
+
+.ronixcompanysection-mobile-two .ronixcompanysection-mobile-paragraph {
+  font-size: 12px;
+}
+
+.ronixcompanysection-mobile-two .custom-btn {
+  background: white;
+  color: #DC0000;
+}

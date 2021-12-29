@@ -1,0 +1,1667 @@
+.change-Language-Button {
+  position: absolute;
+  left: 20%;
+  /* top: -10px; */
+  transform: translateY(-50%);
+}
+
+.language-box {
+  position: absolute;
+  width: 167%;
+  height: 600px !important;
+  background: rgba(255, 255, 255, 0.247);
+  padding: 15px 0;
+  opacity: 1;
+  /* top: 10%;  */
+  left: 0;
+  z-index: 999999;
+  transition: all 0.5s ease;
+  transform: translate(10%, 25%);
+}
+
+.world-ul {
+  margin-bottom: 3rem;
+}
+.world {
+  font-size: 22px;
+  color: #000;
+}
+.vir {
+  transform: translateY(-13px);
+  display: inline-block;
+}
+.contry {
+  transform: translate(15%, -24%);
+  display: block;
+  font-size: 15px;
+  color: rgb(7, 7, 7);
+  width: 94%;
+}
+.contry-add:hover {
+  transition: all 0.5s ease;
+  color: #f14441 !important;
+}
+.contry-add {
+  display: inline-block;
+  padding-top: 15px;
+  font-size: 13px;
+  text-decoration: underline;
+  color: #b9b9b9 !important;
+  transform: translateY(-12px);
+}
+html[lang="ar"] .contry-add {
+  transform: translateY(-4px) translateX(-17px) !important;
+}
+.bg-Afghanistan {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -10px -10px;
+}
+.bg-Albania {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -55px -10px;
+}
+.bg-Algeria {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -100px -10px;
+}
+
+.bg-Andorra {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -145px -10px;
+}
+
+.bg-Angola {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -190px -10px;
+}
+
+.bg-Antigua_And_Barbuda {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -235px -10px;
+}
+
+.bg-Argentina {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -280px -10px;
+}
+
+.bg-Armenia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -325px -10px;
+}
+
+.bg-Australia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -370px -10px;
+}
+
+.bg-Austria {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -415px -10px;
+}
+
+.bg-Azerbaijan {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -460px -10px;
+}
+
+.bg-Bahamas {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -505px -10px;
+}
+
+.bg-Bahrain {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -550px -10px;
+}
+
+.bg-Bangladesh {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -595px -10px;
+}
+
+.bg-Barbados {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -640px -10px;
+}
+
+.bg-Belarus {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -685px -10px;
+}
+
+.bg-Belgium {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -730px -10px;
+}
+
+.bg-Belize {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -775px -10px;
+}
+
+.bg-Benin {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -820px -10px;
+}
+
+.bg-Bhutan {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -865px -10px;
+}
+
+.bg-Bolivia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -910px -10px;
+}
+
+.bg-Bosnia_And_Herzegovina {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -955px -10px;
+}
+
+.bg-Botswana {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1000px -10px;
+}
+
+.bg-Brazil {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1045px -10px;
+}
+
+.bg-Brunei {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1090px -10px;
+}
+
+.bg-Bulgaria {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1135px -10px;
+}
+
+.bg-Burkina_Faso {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1180px -10px;
+}
+
+.bg-Burundi {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1225px -10px;
+}
+
+.bg-Cambodia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1270px -10px;
+}
+
+.bg-Cameroon {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1315px -10px;
+}
+
+.bg-Canada {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1360px -10px;
+}
+
+.bg-Cape_Verde {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1405px -10px;
+}
+
+.bg-Cayman_Islands {
+  width: 25px;
+  height: 24px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1450px -10px;
+}
+
+.bg-Central_African_Republic {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1495px -10px;
+}
+
+.bg-Chad {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1540px -10px;
+}
+
+.bg-Chile {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1585px -10px;
+}
+
+.bg-China {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1630px -10px;
+}
+
+.bg-Colombia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1675px -10px;
+}
+
+.bg-Comoros {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1720px -10px;
+}
+
+.bg-Congo {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1765px -10px;
+}
+
+.bg-Congo_Democratic {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1810px -10px;
+}
+
+.bg-Costa_Rica {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1855px -10px;
+}
+
+.bg-Croatia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1900px -10px;
+}
+
+.bg-Cuba {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1945px -10px;
+}
+
+.bg-Cyprus {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -1990px -10px;
+}
+
+.bg-Czech_Republic {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2035px -10px;
+}
+
+.bg-Denmark {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2080px -10px;
+}
+
+.bg-Djibouti {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2125px -10px;
+}
+
+.bg-Dominica {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2170px -10px;
+}
+
+.bg-Dominican_Republic {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2215px -10px;
+}
+
+.bg-Ecuador {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2260px -10px;
+}
+
+.bg-Egypt {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2305px -10px;
+}
+
+.bg-El_Salvador {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2350px -10px;
+}
+
+.bg-England {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2395px -10px;
+}
+
+.bg-Malabo {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2440px -10px;
+}
+
+.bg-Equatorial_Guinea {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2485px -10px;
+}
+
+.bg-Eritrea {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2530px -10px;
+}
+
+.bg-Estonia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2575px -10px;
+}
+
+.bg-Eswatini {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2620px -10px;
+}
+
+.bg-Ethiopia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2665px -10px;
+}
+
+.bg-Fiji {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2710px -10px;
+}
+
+.bg-Finland {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2755px -10px;
+}
+
+.bg-Republic_Of_The_C�te_D_Ivoire {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2800px -10px;
+}
+
+.bg-France {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2845px -10px;
+}
+
+.bg-Gabon {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2890px -10px;
+}
+
+.bg-The_Gambia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2935px -10px;
+}
+
+.bg-Georgia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -2980px -10px;
+}
+
+.bg-Germany {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3025px -10px;
+}
+
+.bg-Ghana {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3070px -10px;
+}
+
+.bg-Gibraltar {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3115px -10px;
+}
+
+.bg-Greece {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3160px -10px;
+}
+
+.bg-Grenada {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3205px -10px;
+}
+
+.bg-Guam {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3250px -10px;
+}
+
+.bg-Guatemala {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3295px -10px;
+}
+
+.bg-Guernsey {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3340px -10px;
+}
+
+.bg-Guinea {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3385px -10px;
+}
+
+.bg-Guinea-Bissau {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3430px -10px;
+}
+
+.bg-Guyana {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3475px -10px;
+}
+
+.bg-Haiti {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3520px -10px;
+}
+
+.bg-Honduras {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3565px -10px;
+}
+
+.bg-Hungary {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3610px -10px;
+}
+
+.bg-Iceland {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3655px -10px;
+}
+
+.bg-India {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3700px -10px;
+}
+
+.bg-Indonesia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3745px -10px;
+}
+
+.bg-Iran {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3790px -10px;
+}
+
+.bg-Iraq {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3835px -10px;
+}
+
+.bg-Ireland {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3880px -10px;
+}
+
+.bg-Israel {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3925px -10px;
+}
+
+.bg-Italy {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -3970px -10px;
+}
+
+.bg-Jamaica_ {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4015px -10px;
+}
+
+.bg-Japan {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4060px -10px;
+}
+
+.bg-Jersey {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4105px -10px;
+}
+
+.bg-Jordan {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4150px -10px;
+}
+
+.bg-Kazakhstan {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4195px -10px;
+}
+
+.bg-Kenya {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4240px -10px;
+}
+
+.bg-Kiribati {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4285px -10px;
+}
+
+.bg-korea {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4330px -10px;
+}
+
+.bg-Kuwait {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4375px -10px;
+}
+
+.bg-Kyrgyzstan {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4420px -10px;
+}
+
+.bg-Laos {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4465px -10px;
+}
+
+.bg-Latvia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4510px -10px;
+}
+
+.bg-Lebanon {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4555px -10px;
+}
+
+.bg-Lesotho {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4600px -10px;
+}
+
+.bg-Liberia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4645px -10px;
+}
+
+.bg-Libya {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4690px -10px;
+}
+
+.bg-Liechtenstein {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4735px -10px;
+}
+
+.bg-Lithuania {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4780px -10px;
+}
+
+.bg-Luxembourg {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4825px -10px;
+}
+
+.bg-Madagascar {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4870px -10px;
+}
+
+.bg-Malawi {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4915px -10px;
+}
+
+.bg-Malaysia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -4960px -10px;
+}
+
+.bg-Maldives {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5005px -10px;
+}
+
+.bg-Mali {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5050px -10px;
+}
+
+.bg-Malta {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5095px -10px;
+}
+
+.bg-Marshall_Islands {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5140px -10px;
+}
+
+.bg-Mauritania {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5185px -10px;
+}
+
+.bg-Mauritius {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5230px -10px;
+}
+
+.bg-Mexico {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5275px -10px;
+}
+
+.bg-Micronesia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5320px -10px;
+}
+
+.bg-Moldova {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5365px -10px;
+}
+
+.bg-Monaco {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5410px -10px;
+}
+
+.bg-Mongolia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5455px -10px;
+}
+
+.bg-Montenegro {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5500px -10px;
+}
+
+.bg-Morocco {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5545px -10px;
+}
+
+.bg-Mozambique {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5590px -10px;
+}
+
+.bg-Myanmar {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5635px -10px;
+}
+
+.bg-Namibia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5680px -10px;
+}
+
+.bg-Nauru {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5725px -10px;
+}
+
+.bg-Nepal {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5770px -10px;
+}
+
+.bg-Netherlands {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5815px -10px;
+}
+
+.bg-New_Zealand {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5860px -10px;
+}
+
+.bg-Nicaragua {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5905px -10px;
+}
+
+.bg-Niger {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5950px -10px;
+}
+
+.bg-Nigeria {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -5995px -10px;
+}
+
+.bg-Niue {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6040px -10px;
+}
+
+.bg-Former_Yugoslav_Republic_Of_Macedonia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6085px -10px;
+}
+
+.bg-Northern_Ireland {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6130px -10px;
+}
+
+.bg-Northern_Mariana_Islands {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6175px -10px;
+}
+
+.bg-Norway {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6220px -10px;
+}
+
+.bg-Oman {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6265px -10px;
+}
+
+.bg-Pakistan {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6310px -10px;
+}
+
+.bg-Palau {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6355px -10px;
+}
+
+.bg-palestine {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6400px -10px;
+}
+
+.bg-Panama {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6445px -10px;
+}
+
+.bg-Papua_New_Guinea {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6490px -10px;
+}
+
+.bg-Paraguay {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6535px -10px;
+}
+
+.bg-Peru {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6580px -10px;
+}
+
+.bg-Philippines {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6625px -10px;
+}
+
+.bg-Pitcairn {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6670px -10px;
+}
+
+.bg-Poland {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6715px -10px;
+}
+
+.bg-Portugal {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6760px -10px;
+}
+
+.bg-Puerto_Rico {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6805px -10px;
+}
+
+.bg-Qatar {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6850px -10px;
+}
+
+.bg-Romania {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6895px -10px;
+}
+
+.bg-Russia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6940px -10px;
+}
+
+.bg-Rwanda {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -6985px -10px;
+}
+
+.bg-St__Kitts_And_Nevis {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7030px -10px;
+}
+
+.bg-Saint_Lucia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7075px -10px;
+}
+
+.bg-St__Kitts_And_Nevis {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7120px -10px;
+}
+
+.bg-Samoa {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7165px -10px;
+}
+
+.bg-San_Marino {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7210px -10px;
+}
+
+.bg-Sao_Tome___Principe {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7255px -10px;
+}
+
+.bg-Saudi_Arabia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7300px -10px;
+}
+
+.bg-Scotland {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7345px -10px;
+}
+
+.bg-Senegal {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7390px -10px;
+}
+
+.bg-Serbia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7435px -10px;
+}
+
+.bg-Seychelles {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7480px -10px;
+}
+
+.bg-Sierra_Leone {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7525px -10px;
+}
+
+.bg-Singapore {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7570px -10px;
+}
+
+.bg-Slovakia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7615px -10px;
+}
+
+.bg-Slovenia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7660px -10px;
+}
+
+.bg-Solomon_Islands {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7705px -10px;
+}
+
+.bg-Somalia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7750px -10px;
+}
+
+.bg-South_Africa {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7795px -10px;
+}
+
+.bg-south_sudan {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7840px -10px;
+}
+
+.bg-Spain {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7885px -10px;
+}
+
+.bg-Sri_Lanka {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7930px -10px;
+}
+
+.bg-St__Vincent_And_The_Grenadines {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -7975px -10px;
+}
+
+.bg-St__Lucia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8020px -10px;
+}
+
+.bg-Sudan {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8065px -10px;
+}
+
+.bg-Suriname {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8110px -10px;
+}
+
+.bg-Sweden {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8155px -10px;
+}
+
+.bg-Swaziland {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8200px -10px;
+}
+
+.bg-Syria {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8245px -10px;
+}
+
+.bg-Taiwan {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8290px -10px;
+}
+
+.bg-Tajikistan {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8335px -10px;
+}
+
+.bg-Tanzania {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8380px -10px;
+}
+
+.bg-Thailand {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8425px -10px;
+}
+
+.bg-The_Isle_of_Man {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8470px -10px;
+}
+
+.bg-The_Virgin_Islands {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8515px -10px;
+}
+
+.bg-United_Kingdom_Of_Great_Britain_And_Northern_Ireland {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8560px -10px;
+}
+
+.bg-Switzerland {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites2.png") -55px -10px;
+}
+
+.bg-Mayotte {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites2.png") -10px -10px;
+}
+
+.bg-Timor-Leste {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8605px -10px;
+}
+
+.bg-Togo {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8650px -10px;
+}
+
+.bg-Tonga {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8695px -10px;
+}
+
+.bg-Trinidad_And_Tobago {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8740px -10px;
+}
+
+.bg-Tunisia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8785px -10px;
+}
+
+.bg-Turkey {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8830px -10px;
+}
+
+.bg-Turkmenistan {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8875px -10px;
+}
+
+.bg-Tuvalu {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8920px -10px;
+}
+
+.bg-Uganda {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -8965px -10px;
+}
+
+.bg-Ukraine {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -9010px -10px;
+}
+
+.bg-United_Arab_Emirates {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -9055px -10px;
+}
+
+.bg-Usa {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -9100px -10px;
+}
+
+.bg-Uruguay {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -9145px -10px;
+}
+
+.bg-Uzbekistan {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -9190px -10px;
+}
+
+.bg-Vanuatu {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -9235px -10px;
+}
+
+.bg-Vatikan_City {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -9280px -10px;
+}
+
+.bg-Venezuela {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -9325px -10px;
+}
+
+.bg-Vietnam {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -9370px -10px;
+}
+
+.bg-Wales {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -9415px -10px;
+}
+
+.bg-Yemen {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -9460px -10px;
+}
+
+.bg-Zambia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -9505px -10px;
+}
+
+.bg-Zimbabwe {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites.png") -9550px -10px;
+}
+
+.bg-Ukraine {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -3340px -10px;
+}
+
+.bg-United_Arab_Emirates {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -3385px -10px;
+}
+
+.bg-Vanuatu {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -3430px -10px;
+}
+
+.bg-Yemen {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -3475px -10px;
+}
+
+.bg-Zimbabwe {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -3520px -10px;
+}
+
+.bg-_Isle_of_Man {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -10px -10px;
+}
+
+.bg-en {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -55px -10px;
+}
+
+.bg-Germany {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -100px -10px;
+}
+
+.bg-Gibraltar {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -145px -10px;
+}
+
+.bg-Guernsey {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -190px -10px;
+}
+
+.bg-Northern_Mariana_Islands {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -235px -10px;
+}
+
+.bg-The_Isle_of_Man {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -280px -10px;
+}
+
+.bg-Wales {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -325px -10px;
+}
+
+.bg-Belize {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -370px -10px;
+}
+
+.bg-England {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -415px -10px;
+}
+
+.bg-Guam {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -460px -10px;
+}
+
+.bg-Jamaica {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -505px -10px;
+}
+
+.bg-Marshall_Islands {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -550px -10px;
+}
+
+.bg-Niue {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -595px -10px;
+}
+
+.bg-Northern_Ireland {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -640px -10px;
+}
+
+.bg-Northern_Mariana_Islands {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -685px -10px;
+}
+
+.bg-Papua_New_Guinea {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -730px -10px;
+}
+
+.bg-Papua_New_Guinea {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -775px -10px;
+}
+
+.bg-St__Kitts_And_Nevis {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -820px -10px;
+}
+
+.bg-Saint_Lucia {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -865px -10px;
+}
+
+.bg-Solomon_Islands {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -955px -10px;
+}
+
+.bg-The_Virgin_Islands {
+  width: 25px;
+  height: 16px;
+  background: url("https://files.ronixtools.com/Images/IrImages/css_sprites (3).png") -1000px -10px;
+}
+
+.continent-container {
+  margin-left: 9%;
+  margin-top: 25px;
+}
+
+.language-ScrollBars {
+  height: 55vh !important;
+}
+.language-search-input {
+  border: none !important;
+  border-bottom: 1px solid #dc3545 !important;
+  background-color: transparent;
+}
+
+.language-search-input::placeholder {
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+@media (max-width: 1650px) {
+  .Img-Active {
+    width: 500px;
+    display: inline-block;
+  }
+}
+@media (max-width: 1440px) {
+  .Video-Youtube {
+    width: 100%;
+    margin: 48px 0;
+    height: 88%;
+  }
+  .Img-Active {
+    width: 500px;
+    display: inline-block;
+  }
+  .Menu-box {
+    display: flex;
+    position: absolute;
+    width: 167%;
+    height: auto !important;
+    background: #fff;
+    padding: 15px 0;
+    opacity: 1;
+    top: 80%;
+    left: 0;
+    z-index: 999999;
+    transition: all 0.5s ease;
+    transform: translate(-50%, 33px);
+  }
+}
+@media (max-width: 1366px) {
+  .icon-Gallery-font {
+    font-size: 17px;
+  }
+  .Video-Youtube {
+    width: 100%;
+    margin: 48px 0;
+    height: 84%;
+  }
+  .d-md-block {
+    font-size: 10px;
+  }
+  .desktop-header-button {
+    padding: 0 !important;
+  }
+  .Title-Menu {
+    font-size: 10px;
+    padding: 0 !important;
+    margin-top: 5px;
+    text-align: right;
+  }
+  .Img-Active {
+    width: 400px;
+    display: inline-block;
+  }
+  .Box-Img-edit {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 1280px) and (max-height: 600px) {
+  .Img-Active {
+    width: 300px;
+    display: inline-block;
+  }
+}
+
+.error-messag {
+  top: 80px;
+  width: 100%;
+  background: #ffc107;
+  z-index: 999;
+  display: block;
+  padding: 8px;
+  position: fixed;
+}
+.faq-Image-Background {
+  background-image: url("image/Question.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Overlay-Faq {
+  background-color: #fff;
+}
+.filter-container {
+  height: auto !important;
+  padding: 10px 0;
+}
+
+.ScrollBar-Box-Mobile-MainMenu {
+  height: 460px !important;
+}
+/* .breadcrumb-nav{
+    margin-top: 140px !important;
+  } */
+.job-category-image-box {
+  width: 326px;
+  height: 370px;
+  display: inline-block;
+}
+.ImgCenter1 {
+  width: 100%;
+  height: 100%;
+  background: url("https://files.ronixtools.com/Images/IrImages/RonixLogotiny.png")
+    no-repeat center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-sub-category-link {
+  text-decoration: none !important;
+  color: #000;
+  font-size: small;
+}
+.listACcordion li {
+  font-size: 13px;
+}
+.active-now {
+  color: red;
+  font-weight: bold;
+}
+.team-signature {
+  position: absolute;
+  bottom: 10px;
+  right: 10%;
+  width: 390px;
+  text-align: center;
+}
+.ScrollBar-Box-Mobile-Cat-Header {
+  height: 431px !important;
+}
+.BoxSLide-allproduct {
+  background-color: #fff;
+  /* padding: 10px; */
+  width: 281px !important;
+  height: 305px;
+  margin: 3px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}

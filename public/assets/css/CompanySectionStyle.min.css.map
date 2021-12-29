@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,oBAAoB,AAAA,CAChB,gBAAgB,CAAE,OAAO,CACzB,MAAM,CAAE,KAAK,CACb,eAAe,CAAE,MAAM,CACvB,WAAW,CAAE,MAAM,CAClB,AACD,AAAA,qBAAqB,CAAG,2BAA2B,CAAE,0BAA0B,AAAA,CAC/E,SAAS,CAAE,KAAK,CAChB,KAAK,CAAE,KAAK,CACZ,QAAQ,CAAE,QAAQ,CAClB,MAAM,CAAE,MAAM,CACb,AACD,AAAA,qBAAqB,AAAA,CACrB,SAAS,CAAE,gBAAgB,CAC3B,QAAQ,CAAE,QAAQ,CACjB,AACD,AAAA,oBAAoB,AAAA,CACpB,SAAS,CAAE,gBAAgB,CAC3B,QAAQ,CAAE,QAAQ,CACjB",
+    "sources": [
+        "../../../src/components/Home/CompanySectionStyle.scss"
+    ],
+    "names": [],
+    "file": "CompanySectionStyle.min.css"
+}

@@ -1,0 +1,79 @@
+.input-range {
+    position: relative;
+    z-index: 2;
+}
+.input-range__track {
+    height: 8px !important;
+    background-color: transparent !important;
+    border-radius: 2px !important;
+    & .input-range__slider {
+        top: -15px !important;
+        width: 7px !important;
+        height: 24px !important;
+        border-radius: 4px !important;
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        border: 2px solid #a2a2a2 !important;
+        background-color: #fff !important;
+    }
+}
+.input-range__label {
+    display: none !important;
+}
+.dot-list {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    height: 8px;
+    z-index: 1;
+    background-color: #fff !important;
+    border-radius: 2px;
+    & > div {
+        width: 20%;
+        height: 8px;
+        float: left;
+        text-align: right;
+        & span {
+            width: 4px;
+            height: 4px;
+            background-color: #9a9a9a;
+            border-radius: 50%;
+            transform: translate(3px, -11px);
+            display: inline-block;
+        }
+    }
+}
+
+.input-range__track--active {
+    transition: all 0.3s !important;
+}
+.range-level-0 {
+    & .input-range__track--active {
+        background-color: #e2e2e2 !important;
+    }
+}
+.range-level-1 {
+    & .input-range__track--active {
+        background-color: #ff4d00 !important;
+    }
+}
+.range-level-2 {
+    & .input-range__track--active {
+        background-color: #ff8000 !important;
+    }
+}
+.range-level-3 {
+    & .input-range__track--active {
+        background-color: #f8c900 !important;
+    }
+}
+.range-level-4 {
+    & .input-range__track--active {
+        background-color: #c5d15d !important;
+    }
+}
+.range-level-5 {
+    & .input-range__track--active {
+        background-color: #27b857 !important;
+    }
+}
